@@ -20,6 +20,7 @@
       "@angular/common",
       "@angular/common/http",
       "@angular/compiler",
+      "@angular/compiler-cli",
       "@angular/core",
       "@angular/forms",
       "@angular/platform-browser",
@@ -39,18 +40,18 @@
     "typescript": "latest"
   },
   "dependencies": {
-    "@angular/common": "^12.1.4",
-    "@angular/compiler": "^12.1.4",
-    "@angular/compiler-cli": "^12.1.4",
-    "@angular/core": "^12.1.4",
-    "@angular/forms": "^12.1.4",
-    "@angular/platform-browser": "^12.1.4",
-    "@angular/platform-browser-dynamic": "^12.1.4",
-    "@angular/router": "^12.1.4",
-    "core-js": "^3.15.2",
-    "piral": "next",
-    "piral-ng": "next",
-    "rxjs": "^7.3.0",
-    "zone.js": "^0.11.4"
+    "@angular/common": "^16",
+    "@angular/compiler": "^16",
+    "@angular/compiler-cli": "^16.1.0",
+    "@angular/core": "^16",
+    "@angular/forms": "^16",
+    "@angular/platform-browser": "^16",
+    "@angular/platform-browser-dynamic": "^16",
+    "@angular/router": "^16",
+    "core-js": "^3.19.0",
+    "piral": "1.0.0",
+    "piral-ng": "1.0.0",
+    "rxjs": "^7.8.1",
+    "zone.js": "^0.13.1"
   }
 }
