@@ -5,35 +5,9 @@
   "keywords": [
     "pilet"
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "@ngtools/webpack": "^12",
-    "app-shell": "1.0.0"
-  },
-  "peerDependencies": {
-    "@dbeining/react-atom": "*",
-    "@libre/atom": "*",
-    "@angular/common": "*",
-    "@angular/compiler": "*",
-    "@angular/compiler-cli": "*",
-    "@angular/core": "*",
-    "@angular/forms": "*",
-    "@angular/router": "*",
-    "@angular/platform-browser": "*",
-    "@angular/platform-browser-dynamic": "*",
-    "history": "*",
-    "react": "*",
-    "react-dom": "*",
-    "react-router": "*",
-    "react-router-dom": "*",
-    "tslib": "*",
-    "path-to-regexp": "*",
-    "app-shell": "*"
-  },
   "scripts": {
     "start": "pilet debug",
     "build": "pilet build",
-    "prepare:angular": "ngcc",
     "upgrade": "pilet upgrade",
     "upgrade-pilet": "pilet upgrade --force-overwrite yes"
   },
@@ -44,5 +18,31 @@
   "piral": {
     "comment": "Keep this section to use the Piral CLI.",
     "name": "app-shell"
+  },
+  "dependencies": {    
+  },
+  "devDependencies": {
+    "@ngtools/webpack": "^16.1.0",
+    "app-shell": "1.0.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/compiler-cli": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/router": "*",
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "app-shell": "*",
+    "history": "*",
+    "path-to-regexp": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*"
   }
 }
